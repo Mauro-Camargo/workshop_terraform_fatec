@@ -1,0 +1,4 @@
+# ignorar o tfstate
+*.exe
+*.hcl
+*.tfstate
