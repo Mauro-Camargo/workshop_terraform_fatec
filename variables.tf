@@ -38,7 +38,7 @@ variable "content_type_png" {
 
 variable "site_images_jpeg" {
   type = list(string)
-  default = [    
+  default = [
     "home-img.jpg",
     "img1.jpg",
     "portfolio-item1.jpg",
@@ -63,7 +63,7 @@ variable "site_images_jpeg" {
 variable "site_images_png" {
   type = list(string)
   default = [
-    "screenshot.png", 
+    "screenshot.png",
     "twitter.png",
     "001.png",
     "002.png",
@@ -82,11 +82,11 @@ variable "site_images_png" {
   ]
 }
 
-############## CSS Files
+############## CSS Files ####################
 
 variable "site_css" {
   type    = list(string)
-  default = ["style.css"]
+  default = ["estilo.css"]
 }
 
 variable "path_css" {
@@ -99,7 +99,7 @@ variable "content_type_site_css" {
   default = "text/css"
 }
 
-################ JS Files
+################ JS Files ##################
 
 variable "site_js" {
   type    = list(string)
@@ -115,45 +115,3 @@ variable "content_type_site_js" {
   type    = string
   default = "text/javascript"
 }
-
-# variable "site_files" {
-#   type    = list(string)
-#   default = ["cantinatialina.html", "home.html", "portuguesa.html", "vinicula_goes.html", "contato.html", "quemsomos.html", "italiana.html", "restaurantes.html", "donpatto.html", "olivardo.html", "termos.html"]
-# }
-
-# variable "site_images" {
-#   type = list(string)
-#   default = [
-#     "Rectanglegr.png",
-#     "Rectanglegrpurple.png",
-#     "colher.png",
-#     "facebook.png",
-#     "food1.jpg",
-#     "food2.jpg",
-#     "food3.jpg",
-#     "food4.jpg",
-#     "food5.jpg",
-#     "gp1.png",
-#     "img title.png",
-#     "instagram.png",
-#     "logo.png",
-#     "olivardo1.jpg",
-#     "olivardo2.png",
-#     "olivardo3.png",
-#     "photothumb.db",
-#     "picanha_img-removebg-preview.png",
-#     "port1.jpg",
-#     "port2.jpg",
-#     "port3.png",
-#     "quinta_img-removebg-preview.png",
-#     "salada.png",
-#     "twitter.png",
-#     "uni.png",
-#     "vila_don_img-removebg-preview.png",
-#     "viladonpatto-img2.jpg",
-#     "viladonpatto_background.jpg",
-#     "viladonpatto_img1.jpg",
-#     "viladonpatto_img3.jpg",
-#     "viladonpatto_img4.jpg"
-#   ]
-# }
