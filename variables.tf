@@ -6,7 +6,7 @@ variable "environment" {
 
 variable "path_files" {
   type    = string
-  default = "C:/Users/moeg/sites/agencia/"
+  default = "C:/Users/seuusuario/sites/agencia/"
 }
 
 variable "site_files" {
@@ -23,7 +23,7 @@ variable "content_type_site_files" {
 
 variable "path_images" {
   type    = string
-  default = "C:/Users/moeg/sites/agencia/images/"
+  default = "C:/Users/seuusuario/sites/agencia/images/"
 }
 
 variable "content_type_jpeg" {
@@ -96,7 +96,7 @@ variable "valida_css" {
 
 variable "path_css" {
   type    = string
-  default = "C:/Users/moeg/sites/agencia/css/"
+  default = "C:/Users/seuusuario/sites/agencia/css/"
 }
 
 variable "content_type_site_css" {
@@ -113,7 +113,7 @@ variable "site_js" {
 
 variable "path_js" {
   type    = string
-  default = "C:/Users/moeg/sites/agencia/js/"
+  default = "C:/Users/seuusuario/sites/agencia/js/"
 }
 
 variable "content_type_site_js" {
