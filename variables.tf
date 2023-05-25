@@ -89,6 +89,11 @@ variable "site_css" {
   default = ["estilo.css"]
 }
 
+variable "valida_css" {
+  type    = bool
+  default = false
+}
+
 variable "path_css" {
   type    = string
   default = "C:/Users/moeg/sites/agencia/css/"

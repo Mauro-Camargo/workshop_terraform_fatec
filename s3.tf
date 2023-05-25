@@ -68,7 +68,7 @@ resource "aws_s3_object" "webserver_images_site_fatec_png" {
 
 # CSS File
 resource "aws_s3_object" "css_site_fatec" {
-  count        = length(var.site_css)
+  count        = var.valida_css == true ? length(var.site_css) : 0 // Nessa linha está criado uma condição, onde o CSS só será criado se a variável valida for igual a true.
   bucket       = aws_s3_bucket.webserver_fatec_bucket.id
   key          = "css/${var.site_css[count.index]}"
   source       = "${var.path_css}${var.site_css[count.index]}"
